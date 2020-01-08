@@ -199,6 +199,9 @@ border:none;
 
 }
 @media (min-width: 1150px){
+	.main__header{
+		min-width: 1150px;
+	}
 	.nav__list--tablet{
 		display: none;
 	}

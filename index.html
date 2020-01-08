@@ -57,6 +57,16 @@
     <path d="M0 43.68l27.44 15.93V36.27L0 20.33zm51.35-31.24v2.45c0 1.82-3.46 3.29-7.73 3.29s-7.73-1.47-7.73-3.29v-4.06c.26 1.71 3.6 3.07 7.7 3.07 4.27 0 7.73-1.47 7.73-3.28s-3.46-3.29-7.73-3.29h-1l-5-2.89v3.12c0 1.82-3.45 3.29-7.72 3.29a12.65 12.65 0 0 1-6.43-1.47 3.94 3.94 0 0 0-.73-.59 1.8 1.8 0 0 1-.57-1.24v-3l-4.76 2.81h-1.05c-4.27 0-7.73 1.47-7.73 3.29s3.46 3.28 7.73 3.28c4.1 0 7.45-1.36 7.7-3.07v4.06c0 1.82-3.45 3.29-7.73 3.29s-7.7-1.5-7.7-3.32v-2.42l-6 3.45 27.53 16L57.53 16zM37.7 22.6c0 1.82-3.46 3.29-7.73 3.29s-7.73-1.47-7.73-3.29v-4.06c.26 1.71 3.6 3.08 7.71 3.08s7.44-1.36 7.7-3.08v4.06zm-5.14 13.88v23.14L60 43.68V20.54zM29.92 6.57c4.27 0 7.72-1.47 7.72-3.29S34.18 0 29.92 0s-7.73 1.47-7.73 3.29 3.46 3.29 7.73 3.29"
       ></path>
   </symbol>
+
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 26" id="arrow-back">
+    <title>huge-arrow-left</title>
+    <path d="M50 11H7.66l8.17-8.17L13.01 0 0 13v.01L13.01 26l2.82-2.82L7.66 15H50v-4z"></path>
+  </symbol>
+
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 26" id="arrow-next">
+    <title>huge-arrow-right</title>
+    <path d="M0 11h42.34l-8.17-8.17L36.99 0 50 13v.01L36.99 26l-2.82-2.82L42.34 15H0v-4z"></path>
+  </symbol>
 </svg>
 
 
@@ -206,31 +216,46 @@
 	</section>
 	
 	<section class="reviews">
+		<div class="reviews--position">
+		<div class="reviews--wrapper">
 		<h2>Отзывы</h2>
-		<blockquote>
+		<blockquote class="reviews--item">
 			<p>Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
-			<cite>Анастасия Красильникова <span>@misssssiskras</span></cite>
+			<cite class="reviews--cite">Анастасия Красильникова <span>@misssssiskras</span></cite>
 		</blockquote>
-		<button>Вперед</button>
-		<button>Назад</button>
-		<button>Написать</button>
+		<div class="btn__flex-reviews">
+		<button class="btn btn-back">
+			<svg class="icon-back" width="50" height="26">
+  <use xlink:href="#arrow-back"></use>
+</svg>
+			<span class="visually-hidden">Назад</span></button>
+		<button class="btn btn-next">
+			<svg class="icon-next" width="50" height="26">
+  <use xlink:href="#arrow-next"></use>
+</svg>
+			<span class="visually-hidden">Вперед</span></button>
+		</div>
+		<button class="btn btn-reviews">Написать</button>
+	</div></div>
 	</section>
 
 	<section class="contacts">
+		<div class="contacts--wrapper">
 		<h2>Контакты</h2>
 		<table class="contacts__table">
-			<tr>
+			<tr class="adress">
 				<td>e-mail:</td>
-				<td>info@mimimishkashop.ru</td>
+				<td class="contacts--email">info@mimimishkashop.ru</td>
 			</tr>
-			<tr>
+			<tr class="adress">
 				<td>адрес:</td>
-				<td>г. Санкт-Петербург,
+				<td >г. Санкт-Петербург,
 ул. Большая Конюшенная, 
 д. 19/8, офис 101</td>
 			</tr>
 			
 		</table>
+	</div>
 		<picture>
 			...
 		</picture>

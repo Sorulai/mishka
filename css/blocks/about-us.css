@@ -1,0 +1,221 @@
+.about-us{
+	width: 260px;
+	margin:0 auto;
+}
+.about-us h2{
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: bold;
+	color:black;
+	margin:0;
+	margin-top: 32px;
+}
+.about-us--item{
+	position: relative;
+	color: black;
+	font-size: 17px;
+	line-height: 20px;
+	font-weight: bold;
+	width: 230px;
+	padding-top: 90px;
+}
+.about-us--item:first-child:before{
+	content: "";
+	position: absolute;
+	width: 30px;
+	height: 35px;
+	top:34px;
+	left: 8px;
+
+	background-image: url('../../img/svg/flower.svg');
+}
+.about-us--item:nth-child(2):before{
+	content: "";
+	position: absolute;
+	width: 46px;
+	height: 27px;
+	top:34px;
+	left: 8px;
+
+	background-image: url('../../img/svg/money.svg');
+}
+.about-us--item:nth-child(3):before{
+	content: "";
+	position: absolute;
+	width: 33px;
+	height: 27px;
+	top:34px;
+	left: 8px;
+
+	background-image: url('../../img/svg/heart.svg');
+}
+.about-us--item:nth-child(3):before{
+	content: "";
+	position: absolute;
+	width: 33px;
+	height: 27px;
+	top:34px;
+	left: 8px;
+
+	background-image: url('../../img/svg/heart.svg');
+}
+.about-us--item:nth-child(4):before{
+	content: "";
+	position: absolute;
+	width: 35px;
+	height: 34px;
+	top:34px;
+	left: 8px;
+
+	background-image: url('../../img/svg/ball.svg');
+}
+.about-us--item:nth-child(5):before{
+	content: "";
+	position: absolute;
+	width: 55px;
+	height: 23px;
+	top:34px;
+	left: 8px;
+
+	background-image: url('../../img/svg/rocket.svg');
+}
+.about-us--item:last-child:before{
+	content: "";
+	position: absolute;
+	width: 33px;
+	height: 32px;
+	top:34px;
+	left: 8px;
+
+	background-image: url('../../img/svg/gift.svg');
+}
+@media (min-width: 768px){
+	.about-us{
+	width: 668px;
+	margin:0 auto;
+}
+.about-us h2{
+	font-size: 43px;
+	line-height: 50px;
+	margin:0;
+	margin-top: 61px;
+}
+.about-us--list{
+	width: 668px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.about-us--item{
+	font-size: 20px;
+	line-height: 22px;
+
+}
+.about-us--item:first-child,
+.about-us--item:nth-child(3),
+.about-us--item:nth-child(5){
+	margin-right: 95px;
+}
+
+}
+@media (min-width: 1150px){
+	.about-us{
+	width: 1050px;
+	margin:0 auto;
+}
+.about-us h2{
+	font-size: 53px;
+	line-height: 57px;
+	margin:0;
+	margin-top: 61px;
+	margin-left: 175px;
+	margin
+}
+.about-us--list{
+	width: 700px;
+	margin-left: 175px;
+}
+.about-us--item:first-child,
+.about-us--item:nth-child(3),
+.about-us--item:nth-child(5){
+	width: 280px;
+}
+/*.about-us--item:first-child,
+.about-us--item:nth-child(3),
+.about-us--item:nth-child(5){
+	margin-right: 116px;
+}*/
+.about-us--item{
+	padding-top:115px;
+	width: 313px;
+}
+.about-us--item:first-child:before{
+	content: "";
+	position: absolute;
+	width: 30px;
+	height: 35px;
+	top:52px;
+	left: 8px;
+
+	background-image: url('../../img/svg/flower.svg');
+}
+.about-us--item:nth-child(2):before{
+	content: "";
+	position: absolute;
+	width: 46px;
+	height: 27px;
+	top:52px;
+	left: 8px;
+
+	background-image: url('../../img/svg/money.svg');
+}
+.about-us--item:nth-child(3):before{
+	content: "";
+	position: absolute;
+	width: 33px;
+	height: 27px;
+	top:52px;
+	left: 8px;
+
+	background-image: url('../../img/svg/heart.svg');
+}
+.about-us--item:nth-child(3):before{
+	content: "";
+	position: absolute;
+	width: 33px;
+	height: 27px;
+	top:52px;
+	left: 8px;
+
+	background-image: url('../../img/svg/heart.svg');
+}
+.about-us--item:nth-child(4):before{
+	content: "";
+	position: absolute;
+	width: 35px;
+	height: 34px;
+	top:52px;
+	left: 8px;
+
+	background-image: url('../../img/svg/ball.svg');
+}
+.about-us--item:nth-child(5):before{
+	content: "";
+	position: absolute;
+	width: 55px;
+	height: 23px;
+	top:52px;
+	left: 8px;
+
+	background-image: url('../../img/svg/rocket.svg');
+}
+.about-us--item:last-child:before{
+	content: "";
+	position: absolute;
+	width: 33px;
+	height: 32px;
+	top:52px;
+	left: 8px;
+
+	background-image: url('../../img/svg/gift.svg');
+}
+}

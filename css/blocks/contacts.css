@@ -1,0 +1,37 @@
+.contacts--wrapper{
+	width: 260px;
+	margin: 0 auto;
+	padding-top: 65px;
+}
+.contacts--wrapper h2{
+	font-size: 18px;
+	line-height: 30px;
+	color: black;
+	font-weight: bold;
+	margin: 0;
+	margin-bottom: 35px;
+
+}
+.contacts__table{
+	width: 260px;
+}
+.contacts__table td{
+	font-size: 15px;
+	line-height: 30px;
+	min-width: 67px;
+}
+.adress{
+	display: flex;
+	margin-bottom: 35px;
+}
+.contacts--email{
+	cursor: pointer;
+	border-bottom: 1px solid #62d1ba;
+}
+.contacts--email:hover{
+	color:#62d1ba;
+}
+.contacts--email:active{
+	color:rgba(70,193,174,0.3);
+	border-bottom: 1px solid rgba(70,193,174,0.3);
+}
