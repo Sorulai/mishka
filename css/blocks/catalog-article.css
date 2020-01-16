@@ -1,0 +1,30 @@
+.header__article--catalog{
+	background-color: #f1f1f1;
+	background-image: none;
+}
+.article__catalog{
+	margin:0;
+	font-size: 27px;
+	line-height: 30px;
+	font-weight: bold;
+	color:black;
+	text-align: center;
+	padding-top: 76px;
+	padding-bottom: 80px;
+}
+@media (min-width: 768px){
+	.article__catalog{
+		padding-top:65px;
+		padding-bottom: 90px;
+		font-size: 53px;
+		line-height: 57px;
+	}
+}
+@media (min-width: 1150px){
+.article__catalog{
+		padding-top:65px;
+		padding-bottom: 75px;
+		font-size: 43px;
+		line-height: 50px;
+	}
+}
